@@ -13,7 +13,7 @@ LOGGER = logging.getLogger("create_container_image")
 
 
 def setup_argparser() -> Any:  # pragma: no cover
-    """Setup argument parser
+    """Sffetup argument parser
 
     :return: Initialized argument parser
     """
