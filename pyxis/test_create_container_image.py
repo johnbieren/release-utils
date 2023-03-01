@@ -23,7 +23,7 @@ def test_image_already_exists(mock_get: MagicMock):
     digest = "some_digest"
 
     # Image already exists
-    mock_rsp.json.return_value = {"data": [{"_id": 0}]}
+    mock_rsp.json.return_value = {"data": [{}]}
 
     # Act
     exists = image_already_exists(args, digest)
